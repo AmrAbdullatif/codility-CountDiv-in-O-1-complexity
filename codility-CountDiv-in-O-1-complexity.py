@@ -8,5 +8,4 @@ def solution(A, B, K):
     while A%K != 0:
         A+=1
     z = ((B/K) - (A/K)) + 1
-    
     return int(z)
