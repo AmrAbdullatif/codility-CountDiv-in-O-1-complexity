@@ -1,7 +1,7 @@
 def solution(A, B, K):
     # write your code in Python 3.6
     if A > B:
-        raise Exception('B must be higher than A!')
+        raise Exception('B must be Greater than A!')
     if K > A and K > B:
         z = 0
     while B%K != 0:
